@@ -9,9 +9,7 @@ function outerClosure() {
   }
 }
 
-outerClosure();
-
-
+console.log(outerClosure());
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
