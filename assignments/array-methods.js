@@ -101,6 +101,34 @@ console.log(ticketPriceTotal);
 
 // Problem 1
 
+// Organizer needs an array of the email addresses to make a master list
+let allEmails = [];
+
+const getAllEmails = runners.map(function(person) {
+    return allEmails.push(person.email);
+});
+
+console.log(allEmails); 
+
 // Problem 2
 
+// Everyone who donated $5 or under is kicked out for being stingy. 
+let shameThem = [];
+
+shameThem = runners.filter(function(person) {
+    return person.donation <= 5
+});
+
 // Problem 3
+
+// We also need their first and last names to shame them publicly
+
+
+let nameShame = []
+
+ getNameShames = shameThem.forEach(function(person) {
+    nameShame.push({"first_name":person.first_name, "last_name":person.last_name});
+
+})
+
+console.log(nameShame);
