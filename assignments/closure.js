@@ -7,9 +7,10 @@ function outerClosure() {
     let innerVal = 42;
     console.log(outerVal + innerVal);
   }
-}
+};
 
-console.log(outerClosure());
+
+// console.log(innerClosure());
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
